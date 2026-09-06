@@ -1,7 +1,5 @@
 # Laboratorio 5 - Reto Babel
 
-Universidad del Valle de Guatemala, Deep Learning, semestre 2026.
-
 El laboratorio entrena un traductor de un idioma inventado al español usando `nn.Transformer` de
 PyTorch. Se parte de un diccionario de 22 palabras y 1200 frases paralelas de entrenamiento más 240
 de validación. El idioma secreto ordena sujeto-objeto-verbo, pone el adjetivo antes del sustantivo y
@@ -39,7 +37,3 @@ jupyter notebook S09_Lab05_Reto_Babel_ESTUDIANTE.ipynb
 
 Reinicie el kernel y corra todas las celdas de arriba abajo.
 
-Notas: los tres CSV ya están en `Datos/`, que es el valor de `CARPETA_DATOS`, así que el notebook se
-debe abrir desde la raíz del repositorio. El notebook entrena dos modelos completos, con y sin
-posición, y tarda unos minutos en CPU. Las celdas de verificación deben imprimir `OK`. En el Bloque 7
-las frases son de prueba propias y hay que reemplazarlas por las que entregue el profesor.
